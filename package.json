@@ -1,0 +1,13 @@
+{
+  "name": "rznewswav",
+  "version": "1.0.0",
+  "description": "professional page",
+  "main": "index.js",
+  "repository": "git@rznewswav:rznewswav/rznewswav.git",
+  "author": "rznewswav <raflie@newswav.com>",
+  "license": "Company",
+  "private": true,
+  "scripts": {
+    "deploy": "cd gatsby; yarn build; cp -r public/* ../docs; echo DONE;"
+  }
+}
